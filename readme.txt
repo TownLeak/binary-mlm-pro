@@ -3,7 +3,7 @@ Contributors: tradebooster
 Donate link: 
 Tags: MLM, multi level marketing, network marketing, binary network, binary MLM
 Requires at least: 3.3
-Tested up to: 3.5.2
+Tested up to: 3.6
 Stable tag: 2.5
 ~Current Version:2.5~
 
@@ -12,6 +12,13 @@ The only Plugin to run a full blown Binary MLM network inside your  favourite CM
 == Description ==
 
 The plugin enables you to run a full blown Binary MLM Network inside of Wordpress.
+
+New Features in v2.5
+
+1. Optional User Registration using ePin
+2. Generate ePins (Regular and Free)
+3. ePin Report (Used and UnUsed ePins)
+4. Export ePins to CSV
 
 New Features in v2.0
 
