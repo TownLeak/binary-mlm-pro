@@ -1,18 +1,10 @@
-binary-mlm-pro
-==============
-
-Binary MLM Pro - Run a full blown Binary MLM Network inside your favourite CMS - WordPress.
-
 === Binary MLM ===
-
 Contributors: tradebooster
-
+Donate link: 
 Tags: MLM, multi level marketing, network marketing, binary network, binary MLM
-
 Requires at least: 3.3
-
-Tested up to: 3.6
-
+Tested up to: 3.5.2
+Stable tag: 2.5
 ~Current Version:2.5~
 
 The only Plugin to run a full blown Binary MLM network inside your  favourite CMS - Wordpress.
@@ -87,4 +79,3 @@ No information currently
 == Arbitrary section 1 ==
 
 This plugin makes use of the Google JSAPI at http://www.google.com/jsapi in order to display the table grids in various areas of the member interface.
-
