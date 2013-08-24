@@ -478,7 +478,7 @@ function fb_redirect_2()
 function myplugin_load_textdomain() {
  	 load_plugin_textdomain( 'binary-mlm-pro', NULL, '/binary-mlm-pro/languages/' ); 
 	}
-<<<<<<< HEAD
+
 $new_version = '2.5';
 if (get_option(MYPLUGIN_VERSION_KEY) != $new_version) { 
 		add_action('plugins_loaded', 'mlm_core_update_mlm_user_master'); 
@@ -490,10 +490,7 @@ if (get_option(MYPLUGIN_VERSION_KEY) == $new_version) {
 		add_action('plugins_loaded', 'mlm_core_install_epins'); 
 		update_option(MYPLUGIN_VERSION_KEY, $new_version); 
 	}
-  ?>
-=======
 
 add_action('plugin_loaded',mlm_core_install_epins);
 
   ?>
->>>>>>> c706dc415b503ff580454a543b784f79d653e6ee
