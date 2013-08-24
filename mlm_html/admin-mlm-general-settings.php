@@ -107,7 +107,7 @@ function mlmGeneral()
 		</tr>
 		 <tr><td colspan="2">
 		
-		<?php epin_genaral_settings();?>
+		<?php general_settings_epin();?>
                           </td></tr>
 	</table>
 	<p class="submit">
