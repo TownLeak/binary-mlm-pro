@@ -13,6 +13,13 @@ The only Plugin to run a full blown Binary MLM network inside your  favourite CM
 
 The plugin enables you to run a full blown Binary MLM Network inside of Wordpress.
 
+New Features in v2.5
+
+1. Optional User Registration using ePin
+2. Generate ePins (Regular and Free)
+3. ePin Report (Used and UnUsed ePins)
+4. Export ePins to CSV
+
 New Features in v2.0
 
 1. Multilingual Support
