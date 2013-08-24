@@ -672,17 +672,9 @@ function mlm_core_install_epins()
 				date_generated  datetime NOT NULL,
 				user_key  VARCHAR(15) NOT NULL DEFAULT 0,
 				date_used  datetime NOT NULL,
-<<<<<<< HEAD
 				status boolean NOT NULL DEFAULT 0) {$charset_collate} AUTO_INCREMENT=1";
-
-		dbDelta($sql);
-=======
-				status boolean NOT NULL DEFAULT 0
-			) {$charset_collate} AUTO_INCREMENT=1";
-
-		dbDelta($sql);
-		mysql_query($sql[0]);
->>>>>>> c706dc415b503ff580454a543b784f79d653e6ee
+				dbDelta($sql);
+				mysql_query($sql[0]);
 }
 /******************************************** ePins Table *****************************/
 
@@ -783,11 +775,7 @@ function mlm_core_drop_tables()
 	$wpdb->query( "DROP TABLE {$table_prefix}mlm_payout" );
 	$wpdb->query( "DROP TABLE {$table_prefix}mlm_payout_master" );
 	$wpdb->query( "DROP TABLE {$table_prefix}mlm_referral_commission" );
-<<<<<<< HEAD
 	$wpdb->query( "DROP TABLE {$table_prefix}mlm_epins");
-=======
-	$wpdb->query( "DROP TABLE {$table_prefix}mlm_epins" );
->>>>>>> c706dc415b503ff580454a543b784f79d653e6ee
 	
 }
 ?>
